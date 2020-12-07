@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>News</title>
+<meta charset="utf-8"/>
+<style type="text/css">
+	p{ 
+ 		font-size: 16px;
+	    text-align: center;
+		box-shadow: 5px 10px 18px #FC33FF;
+	 }
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    overflow: hidden;
+
+}
+ li {display: inline;
+ border-right: 1px solid #8D1B8F;
+  
+padding-left: 80px;}
+
+li:last-child{border-right: none;}
+
+ li a, .link1{
+	display: inline-block;
+	 color: #dfdfd9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	
+}
+a.barras{background-color: none;}
+li a:hover, .dropdown:hover .link1 {
+  background-color: black;
+
+}
+li.dropdown {
+  display: inline-block;
+  
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #C82CA4;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: #080104;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {background-color:#FF00FF;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+nav{background-color: #C82CA4;
+    clear: left;
+    margin-top: 15px;
+    padding: 2px; }
+
+
+#encabezado {background-color: #C26DC4;
+		border: 10px;
+		height: 105px;
+		padding: 3px;
+	   }
+#encabezado h1{ position: absolute;
+                margin-left: 310px; }
+
+.encabARTICULO {background-color: #C82CA4;
+				font-family: arial;
+				font-size: 20px}
+#seccion1 article {border: black 3px solid;}
+
+
+.redesSociales {background-color: #EDBFEE;
+	           	margin: 10px 10px 50px 10px;
+	           	text-align: center;
+	           	clear:left;
+	           	}
+.red { padding: 100px;
+	 
+}
+
+#noticias article:nth-child(odd){
+	background-color: #EDBFEE;
+}
+
+#noticias article:nth-child(even){
+	background-color: #C82CA4;
+}
+
+#logo {transition: width 4s, height 4s, transform 4s;
+     }
+#logo:hover  {
+				transform: rotate(360deg);
+			}
+#logo{float:left;} 
+
+#contenedor {	display: table; }
+
+#noticias { float: left;
+            width:  75%; }
+aside {float: left;
+       border: 2px solid;
+       width: 75%;
+       margin-left: 10px; }		
+
+ .notas{ padding: 5px;
+         margin: 50px;  }
+       
+
+   footer.redessociales{background-color: EDBFEE
+                     		   border:4px;
+                        
+                        text-align: center;}            	
+                        
+
+</style>
+<!-- aqui se coloca link, meta -->
+
+</head>
+<body>
+<!-- contenido de la pagina web -->
+<header  id= "encabezado" >
+<img id="logo" src="C:\Users\Nelly\OneDrive\Documentos\paginas\descarga.jpg" width="150" height="100" />	
+
+<h1 font-family="arial" align="center">Noticias </h1>
+
+</header>
+
+<nav>
+	<ul>
+		<li><a class="barras" href=""><img src="https://imageog.flaticon.com/icons/png/512/17/17701.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" width="30" height="30" </a></li>
+		<li class="dropdown"><a  href="" class="link1" >Secciones</a> 
+		<div class="dropdown-content">
+			<a href="#">Deportes</a>
+			<a href="#">Finanzas</a>
+			<a href="#">Espectaculos</a>
+			<a href="#">Internacional</a>
+		</div></li>
+		<li class="dropdown"><a class="link1" href="">English</a>
+        <div class="dropdown-content">
+			<a href="#">Dog</a>
+			<a href="#">bull</a>
+			<a href="#">case</a>
+			<a href="#">free</a>
+			<a href="#">emirates</a>
+		</div>
+		</li>
+		<li class="dropdown"><a class="link1" href="">Fotos</a>
+         <div class="dropdown-content">
+			<a href="#">carros</a>
+			<a href="#">deportes</a>
+			<a href="#">Finanzas</a>
+			<a href="#">Espectaculos</a>
+			<a href="#">Internacional</a>
+		</div>
+		</li>
+		<li class="dropdown"><a class="link1" href="">Videos</a> 
+
+<div class="dropdown-content">
+			<a href="#">Policiaco</a>
+			<a href="#">Deportes</a>
+			<a href="#">Finanzas</a>
+			<a href="#">Espectaculos</a>
+			<a href="#">Internacional</a>
+		</div>
+		</li>
+		<li class="dropdown"><a class="link1" href="">Graficos</a>
+         <div class="dropdown-content">
+			<a href="#">Policiaco</a>
+			<a href="#">Deportes</a>
+			<a href="#">Finanzas</a>
+			<a href="#">Espectaculos</a>
+			<a href="#">Internacional</a>
+		</div>
+
+		</li>
+		<li class="dropdown"><a class="link1" href="">MxM</a> 
+
+<div class="dropdown-content">
+			<a href="#">Policiaco</a>
+			<a href="#">Deportes</a>
+			<a href="#">Finanzas</a>
+			<a href="#">Espectaculos</a>
+			<a href="#">Internacional</a>
+		</div>
+		</li>
+	</ul>
+	
+</nav>
+
+
+
+
+<section id="contenedor"> 
+	<div id="noticias">
+	<SECTION id="seccion1">
+		<article class="notas">
+			<header class="encabARTICULO"><h3>La mañanera de la Amlo</h3></header>
+		</article>
+		<article class="notas">
+			<header class="encabARTICULO"><h3>Caceria contra la union tepito</h3></header>
+			<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
+
+		</article>
+		<article class="notas">
+			<header class="encabARTICULO">La mañanera de Amlo</header>
+				<p>parrafo de informacion Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web usan el Lorem Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem Ipsum" va a dar por resultado muchos sitios web que usan este texto si se encuentran en estado de desarrollo. Muchas versiones han evolucionado a través de los años, algunas veces por accidente, otras veces a propósito (por ejemplo insertándole humor y cosas por el estilo).</p>
+		</article>
+	</SECTION>
+
+	<section id="seccion2">
+		<article class="notas">
+			<header class="encabARTICULO">La mañanera de Amlo :v</header>
+			<p>Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó humor, o palabras aleatorias que no parecen ni un poco creíbles. Si vas a utilizar un pasaje de Lorem Ipsum, necesitás estar seguro de que no hay nada avergonzante escondido en el medio del texto. Todos los generadores de Lorem Ipsum que se encuentran en Internet tienden a repetir trozos predefinidos cuando sea necesario, haciendo a este el único generador verdadero (válido) 
+			</p>
+		</article>
+
+		<article class="notas"><header class="encabARTICULO">La mañanera de Amlo</header>
+			<p>Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio. Tiene sus raices en una pieza cl´sica de la literatura del Latin, que data del año 45 antes de Cristo, haciendo que este adquiera mas de 2000 años de antiguedad. Richard McClintock, un profesor de Latin de la Universidad de Hampden-Sydney en Virginia, encontró una de las palabras más oscuras de la lengua del latín, "consecteur", en un pasaje de L</p>
+</article>
+		<article class="notas"><header class="encabARTICULO">ESTRATEGIA DIGITAL</header>
+		<p>Emiliano Calderón, coordinador de Estrategia Digital de la Presidencia, estimó que este año alrededor de 60,000 comunidades pequeñas en el país tengan conexión a internet.
+El funcionario detalló que la división de la CFE encargada de brindar el servicio, ofrecerá una conectividad 4G, ya que a partir de un estudio se determinó que es la opción más viable para conectar a los pueblos en menor tiempo.</p>
+		
+		</article>
+	</section>
+
+</div>
+
+	<aside>
+		<article><header>aviso 1</header></article>
+		<article><header>aviso 2</header></article>
+		<article><header>aviso 3</header></article>
+	</aside>
+</section>
+<div id="pie">
+<footer class="redesSociales" >
+<a class="red" href="https://www.facebook.com"><img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/300px-Facebook_icon_2013.svg.png" width="50" height="50" /></a>	
+<a class="red" href="https://www.twitter.com"><img src="https://www.familysearch.org/blog/es/wp-content/uploads/sites/5/2013/01/TwitterBird.png" width="50" height="50" /></a>	
+
+
+</footer>
+</div>
+</body>
+</html>
